@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #1D202B;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+p{
+    font-size: 16.5px;
+    font-weight: bold;
+}
+
+.contenedor{
+    min-width: 280px;
+    min-height: 200px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center center;
+}
+
+.contenedor p{
+    margin-left: 15px;
+}
+
+.texto-arriba{
+    margin-top: 15px;
+}
+
+.texto-abajo{
+    margin-top: 8rem;
+}
+
+.banner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.contenedor-conciertos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr;
+    gap: 20px;
+}
+
+.contenedor-prinicipal{
+    margin-top: 10rem;
+    margin-left: 10rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.texto-centro{
+    margin-top: 4rem;
+    line-height: 2rem;
+}
+
+.comprar-boton{
+    margin-top: 4rem;
+    color: #000;
+    background: gold;
+    font-weight: bold;
+    padding: 10px 70px;
+    border-radius: 100px;
+    border: 1px solid #000;
+    cursor: pointer;
+}
+
+.img-1{
+    background-image: url(./img/1.jpg);
+}
+
+.img-2{
+    background-image: url(./img/2.jpg);
+}
+
+.img-3{
+    background-image: url(./img/3.jpg);
+}
+
+.img-4{
+    background-image: url(./img/4.jpg);
+}
+
+.img-5{
+    background-image: url(./img/5.jpg);
+}
+
+.img-6{
+    background-image: url(./img/6.jpg);
+}
+
+.banner-img{
+    background-image: url(./img/banner.jpg);
+}
